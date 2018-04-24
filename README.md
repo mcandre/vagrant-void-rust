@@ -7,7 +7,7 @@ https://app.vagrantup.com/mcandre/boxes/vagrant-void-rust
 # EXAMPLE
 
 ```console
-$ cd test
+$ cd amd64/test
 $ vagrant up
 $ vagrant ssh -c "cd /vagrant && rustc hello.rs && ./hello"
 Hello World!
@@ -31,5 +31,6 @@ Hello World!
 # EXPORT
 
 ```console
-$ make vagrant-void-rust.box
+$ sh -c "cd amd64 && make vagrant-void-rust-amd64.box"
+$ sh -c "cd i386 && make vagrant-void-rust-i386.box"
 ```
