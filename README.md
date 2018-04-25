@@ -2,7 +2,8 @@
 
 # VAGRANT CLOUD
 
-https://app.vagrantup.com/mcandre/boxes/vagrant-void-rust
+* https://app.vagrantup.com/mcandre/boxes/vagrant-void-rust-amd64
+* https://app.vagrantup.com/mcandre/boxes/vagrant-void-rust-i386
 
 # EXAMPLE
 
