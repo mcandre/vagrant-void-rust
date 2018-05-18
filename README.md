@@ -2,7 +2,7 @@
 
 # WARNING
 
-Rustup does not yet offer a port for DragonflyBSD, so Rust nightly is difficult to setup on these hosts.
+Rustup does not yet offer a port for musl/Linux, so Rust nightly is difficult to setup on these hosts.
 
 # VAGRANT CLOUD
 
